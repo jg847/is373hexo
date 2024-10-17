@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="12 Factor Apphttps:&#x2F;&#x2F;s7280.pcdn.co&#x2F;wp-content&#x2F;uploads&#x2F;2019&#x2F;02&#x2F;12-factor-app.pngCredits: https:&#x2F;&#x2F;www.bmc.com&#x2F;blogs&#x2F;twelve-factor-app&#x2F; The 12 Factor App is a methodology for building software-as-a-servi">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://example.com/2024/10/16/12factorapp/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="12 Factor Apphttps:&#x2F;&#x2F;s7280.pcdn.co&#x2F;wp-content&#x2F;uploads&#x2F;2019&#x2F;02&#x2F;12-factor-app.pngCredits: https:&#x2F;&#x2F;www.bmc.com&#x2F;blogs&#x2F;twelve-factor-app&#x2F; The 12 Factor App is a methodology for building software-as-a-servi">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2024-10-17T03:41:10.070Z">
+<meta property="article:modified_time" content="2024-10-17T03:41:10.070Z">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/favicon.png">
+  
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+
+  
+  
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"><span class="fa fa-bars"></span></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+        
+          <a class="nav-icon" href="/atom.xml" title="RSS Feed"><span class="fa fa-rss"></span></a>
+        
+        <a class="nav-icon nav-search-btn" title="Search"><span class="fa fa-search"></span></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-12factorapp" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2024/10/16/12factorapp/" class="article-date">
+  <time class="dt-published" datetime="2024-10-17T03:41:10.070Z" itemprop="datePublished">2024-10-16</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h1 id="12-Factor-App"><a href="#12-Factor-App" class="headerlink" title="12 Factor App"></a>12 Factor App</h1><p><a target="_blank" rel="noopener" href="https://s7280.pcdn.co/wp-content/uploads/2019/02/12-factor-app.png">https://s7280.pcdn.co/wp-content/uploads/2019/02/12-factor-app.png</a><br>Credits: <a target="_blank" rel="noopener" href="https://www.bmc.com/blogs/twelve-factor-app/">https://www.bmc.com/blogs/twelve-factor-app/</a></p>
+<p>The 12 Factor App is a methodology for building software-as-a-service applications that emphasizes best practices for modern web applications. It was formulated by Heroku and serves as a guide to ensure that applications are scalable, maintainable, and easy to deploy. Here are the 12 factors:</p>
+<ol>
+<li><p><strong>Codebase</strong>: A single codebase tracked in version control, with many deploys.</p>
+</li>
+<li><p><strong>Dependencies</strong>: Explicitly declare and isolate dependencies, ensuring the app runs consistently in different environments.</p>
+</li>
+<li><p><strong>Config</strong>: Store configuration in the environment, separating it from code to avoid hardcoding sensitive information.</p>
+</li>
+<li><p><strong>Backing services</strong>: Treat backing services (like databases, caches, etc.) as attached resources, enabling easy swapping or scaling.</p>
+</li>
+<li><p><strong>Build, release, run</strong>: Strictly separate the build, release, and run stages, allowing for a consistent deployment process.</p>
+</li>
+<li><p><strong>Processes</strong>: Execute the app as one or more stateless processes, which can be scaled out and replicated.</p>
+</li>
+<li><p><strong>Port binding</strong>: Export services via port binding, making the app self-contained and able to run independently.</p>
+</li>
+<li><p><strong>Concurrency</strong>: Scale out via the process model, allowing the app to handle more requests by adding processes.</p>
+</li>
+<li><p><strong>Disposability</strong>: Maximize robustness with fast startup and graceful shutdown, ensuring the app can be deployed and scaled easily.</p>
+</li>
+<li><p><strong>Dev&#x2F;prod parity</strong>: Keep development, staging, and production environments as similar as possible to avoid discrepancies.</p>
+</li>
+<li><p><strong>Logs</strong>: Treat logs as event streams, allowing them to be captured and aggregated in real-time for monitoring.</p>
+</li>
+<li><p><strong>Admin processes</strong>: Run administrative or management tasks as one-off processes, ensuring that they are easily executed in the same environment.</p>
+</li>
+</ol>
+<p>Following these principles helps developers create applications that are resilient, easy to manage, and scalable.</p>
+<h2 id="GitHub-Actions"><a href="#GitHub-Actions" class="headerlink" title="GitHub Actions"></a><a href="githubActions.md">GitHub Actions</a></h2><h3 id="Table-of-Contents"><a href="#Table-of-Contents" class="headerlink" title="Table of Contents"></a><a href="README.md">Table of Contents</a></h3>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2024/10/16/12factorapp/" data-id="cm2credse0000goo49ni93u52" data-title="" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2024/10/16/README/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          (no title)
+        
+      </div>
+    </a>
+  
+  
+</nav>
+
+  
+</article>
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/10/">October 2024</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2024/10/16/wsl2vsvirtualbox/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2024/10/16/wsl2/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2024/10/16/kernel/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2024/10/16/virtualbox/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2024/10/16/virtualization/">(no title)</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2024 John Doe<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/js/jquery-3.6.4.min.js"></script>
+
+
+
+  
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>
