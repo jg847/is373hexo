@@ -71,6 +71,9 @@ jobs:
       - name: Generate Hexo site
         run: hexo generate
 
+      - name: Add .nojekyll file
+        run: touch .public/.nojekyll
+
       # Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
